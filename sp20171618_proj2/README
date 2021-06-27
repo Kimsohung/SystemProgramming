@@ -1,0 +1,56 @@
+//compile and execute
+# make
+# ./20171618.out
+
+
+
+//shell command
+//print ppossible command
+# sicsim> help  
+# sicsim> h
+
+//print all directory and file 
+# sicsim> dir 
+# sicsim> d 
+
+//quit program
+# sicsim> quit 
+# sicsim> q 
+
+//print history list
+# sicsim> history 
+# sicsim> hi 
+
+//type filename
+#sicsim> type [filename]
+
+//memory command
+//dump memory address and value
+# sicsim> dump [start, end] 
+# sicsim> du [start, end] 
+
+//edit memory 
+# sicsim> edit address, value 
+# sicsim> e address, value 
+
+//fill memory with value
+# sicsim> fill start, end, value 
+# sicsim> f start, end, value
+ 
+//reset whole memory to 0x00
+# sicsim> reset 
+
+
+
+//opcode command
+//find menmonic's opcode
+# sicsim> opcode mnemonic
+
+//print optable  
+# sicsim> opcodelist 
+
+
+
+//assembler
+//make listing file and object file
+# sicsim> assemble [filename]
